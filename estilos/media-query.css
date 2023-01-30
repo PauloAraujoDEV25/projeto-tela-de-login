@@ -20,6 +20,7 @@
         float: right;
         width: 70%;
     }
+
     
 }
 
@@ -28,21 +29,30 @@
     body{
         background-image: linear-gradient(to top,#49a09d,#5f2c82);
     }
-    
+
     section#login {
         width: 950px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
+     
+    div#formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
 
+    div#formulario > p {
+        font-size:1.2em ;
+    }
     
 }
